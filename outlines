@@ -1,0 +1,98 @@
+Activities
+This course includes interactive lessons, demonstrations, and knowledge checks.
+
+Course objectives
+In this course, you will learn to:
+
+Define how Lambda works
+
+Examine Lambda function permissions and security
+
+Demonstrate best practice for writing Lambda functions
+
+Deploy and test your serverless applications
+
+Explore best practices for effective code writing
+
+Monitor and troubleshoot Lambda functions
+
+Intended audience
+This course is intended for:
+
+Cloud architects
+
+Developers
+
+Prerequisites
+This is a foundational level course and appropriate for all learners
+
+Course outline
+Section 1: Introduction to Serverless
+
+Services in the AWS serverless platform
+
+Examples of serverless architecture
+
+Describe Lambda in comparison to other compute options
+
+Review AWS Lambda features
+
+Section 2: How Lambda Works
+
+Types of event sources
+
+Synchronous vs asynchronous event sources
+
+Lambda Destinations
+
+How event sources trigger Lambda functions
+
+Push and polling events
+
+Lifecycles of a Lambda function
+
+Cold and warm starts
+
+Section 3: AWS Lambda Function Permissions
+
+Permissions overview
+Execution role and examples
+VPC-enabled Lambda permissions
+PrivateLink
+Resource policy examples
+Section 4: Authoring Lambda Functions
+
+AWS Lambda programming model
+Handler method
+Best practices for writing code
+Lambda console editor
+Package code as a container image
+Upload via zip, S3, ECR
+AWS SAM
+Section 5: Configuring Your Lambda Functions
+
+Concurrency and scaling
+
+Concurrency limits
+
+Bursting
+
+Provisioned concurrency
+
+Section 6: Deploying and Testing Serverless Applications
+
+How is serverless deployment different?
+Server-based vs serverless deployment
+Server-based vs serverless development environments
+Versions and aliases for safe deployments
+Using publish to make a snapshot
+Aliases point to specific version
+Section 7: Monitoring and Troubleshooting
+
+Monitoring with CloudWatch
+CloudWatch metrics
+Using CloudWatch Lambda Insights
+AWS X-Ray
+AWS CloudTrail
+Dead Letter Queues (DLQs)
+Analyzing cold/warm starts using AWS X-Ray
